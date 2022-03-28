@@ -1,0 +1,6 @@
+dist
+**/.angular
+**/src/client
+LICENSE
+*.MD
+*.d.ts

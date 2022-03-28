@@ -1,0 +1,29 @@
+{
+  "name": "@frontsail/alpine-tippy",
+  "version": "1.0.0",
+  "author": "Muris Ceman <muris@frontsail.com>",
+  "license": "MIT",
+  "homepage": "https://www.frontsail.com/docs/alpine-tippy",
+  "description": "An Alpine plugin for handling Tippy.js tooltips dynamically.",
+  "main": "dist/alpine-tippy.cjs.js",
+  "module": "dist/alpine-tippy.esm.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "node ./build.js",
+    "dev": "node ./build.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontsail/alpine-tippy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frontsail/alpine-tippy/issues"
+  },
+  "devDependencies": {
+    "@frontsail/build": "^1.0.0"
+  },
+  "dependencies": {
+    "tippy.js": "^6.3.7"
+  }
+}

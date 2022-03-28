@@ -1,0 +1,9 @@
+node_modules
+tmp
+.DS_Store
+.env
+.idea
+.vscode/
+*.sublime-project
+*.sublime-workspace
+!.gitkeep
